@@ -6,7 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Jared Forsyth",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com:notablemind/jupyter-nodejs.git"
+  },
+  "homepage": "https://github.com/notablemind/jupyter-nodejs",
+  "bugs": {
+    "url": "https://github.com/notablemind/jupyter-nodejs/issues"
+  },
   "license": "ISC",
   "dependencies": {
     "async": "^0.9.0",
