@@ -1,7 +1,7 @@
 # Jupyter NodeJS
 This is a kernel for [Jupyter](http://github.com/ipython/ipython)
 
-Get it while it's hot!
+Get it while it's hot! or view the [example notebook](http://nbviewer.ipython.org/gist/jaredly/404a36306fdee6a1737a)
 
 ## Prereqs
 - IPython 3.x
