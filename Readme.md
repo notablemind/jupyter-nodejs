@@ -1,7 +1,11 @@
 # Jupyter NodeJS
 This is a kernel for [Jupyter](http://github.com/ipython/ipython)
 
-Get it while it's hot! Only compatible with Jupyter (iPython) 3.x
+Get it while it's hot!
+
+## Prereqs
+- IPython 3.x
+- node
 
 ## Installation
 Grab the [release package](https://github.com/notablemind/jupyter-nodejs/releases/download/v1.0.1/jupyter-nodejs-1.0.1.tgz)
