@@ -1,6 +1,6 @@
 {
   "name": "jupyter-nodejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,8 @@
   "bugs": {
     "url": "https://github.com/notablemind/jupyter-nodejs/issues"
   },
+  "files": ["build", "lib", "install.js", "config.js"],
+  "prepublish": "make",
   "license": "ISC",
   "dependencies": {
     "async": "^0.9.0",
