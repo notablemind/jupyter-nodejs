@@ -1,0 +1,21 @@
+{
+  "execute": {
+    "Adding": {
+      "content": {"code": "2+2"},
+      "events": [{
+        "type": "execute_result",
+        "content": {"data": {"text/plain": "4"}}
+      }, {
+        "type": "status",
+        "content": {"execution_state": "busy"}
+      }, {
+        "type": "status",
+        "content": {"execution_state": "idle"}
+      }]
+    }
+  },
+  "complete": {
+    "pr": ["process"],
+    "/": ["/etc", "/home"]
+  }
+}
