@@ -15,12 +15,18 @@
   "bugs": {
     "url": "https://github.com/notablemind/jupyter-nodejs/issues"
   },
-  "files": ["build", "lib", "install.js", "config.js"],
+  "files": [
+    "build",
+    "lib",
+    "install.js",
+    "config.js"
+  ],
   "prepublish": "make",
   "license": "ISC",
   "dependencies": {
     "async": "^0.9.0",
     "babel": "^5.1.11",
+    "coffee-script": "^1.9.2",
     "contextify": "^0.1.13",
     "superagent": "^1.2.0",
     "zmq": "^2.11.0"
