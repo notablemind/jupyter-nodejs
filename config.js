@@ -3,7 +3,7 @@ module.exports = {
   extensions: {
     // clojurescript: require('./ext/clojurescript'),
     clojurescript: require('./build/ext/clojurescript'),
-    babel: require('./build/ext/babel'),
+    coffee: require('./build/ext/coffee'),
+    babel: require('./build/ext/babel')
   }
 }
-
