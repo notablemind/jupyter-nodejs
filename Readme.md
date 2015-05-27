@@ -8,9 +8,9 @@ Get it while it's hot! or view the [example notebook](http://nbviewer.ipython.or
 - node
 
 ## Installation
-Grab the [release package](https://github.com/notablemind/jupyter-nodejs/releases/download/v1.0.1/jupyter-nodejs-1.0.1.tgz)
+Grab the [release package](https://github.com/notablemind/jupyter-nodejs/releases/download/v1.1.0/jupyter-nodejs-1.1.0.tgz)
 ```bash
-tar xf jupyter-nodejs-1.0.1.tgz
+tar xf jupyter-nodejs-1.1.0.tgz
 cd package
 npm install && node install.js
 ipython console --kernel nodejs
