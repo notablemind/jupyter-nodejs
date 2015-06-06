@@ -10,7 +10,7 @@ export default function (ctx, args, done) {
     block: {
       babel: {
         transform(ctx, args, code, out, done) {
-          const opts = { }
+          const opts = { optional: ["runtime"] }
           if (args && args.indexOf('experimental') !== -1) {
             opts.stage = 0
           }
