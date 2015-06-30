@@ -10,11 +10,10 @@ if (process.argv >= 3) {
 
 var fullPath = path.resolve(installPath)
 
-mkdirp(fullPath)
-
-fs.writeFileSync(path.join(fullPath, 'kernel.json'), JSON.stringify({
-  argv: ['node', path.join(path.resolve(__dirname), 'build', 'run.js'), '{connection_file}'],
-  display_name: 'NodeJS',
-  language: 'javascript',
-}, null, 2))
-
+mkdirp(fullPath, function() {
+  fs.writeFileSync(path.join(fullPath, 'kernel.json'), JSON.stringify({
+    argv: ['node', path.join(path.resolve(__dirname), 'build', 'run.js'), '{connection_file}'],
+    display_name: 'NodeJS',
+    language: 'javascript',
+  }, null, 2))
+});
