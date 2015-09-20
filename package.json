@@ -26,9 +26,10 @@
   "dependencies": {
     "async": "^0.9.0",
     "babel": "^5.1.11",
-    "coffee-script": "^1.9.2",
     "bencode": "^0.7.0",
+    "coffee-script": "^1.9.2",
     "contextify": "^0.1.13",
+    "mkdirp": "^0.5.1",
     "superagent": "^1.2.0",
     "zmq": "^2.11.0"
   },
