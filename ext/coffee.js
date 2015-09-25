@@ -5,13 +5,17 @@ export default function (ctx, args, done) {
     block: {
       coffee: {
         transform(ctx, args, code, out, done) {
-          const opts = { }
+          const opts = { bare: args.indexOf('bare') !== -1 }
           try {
             code = coffee.compile(code, opts)
           } catch (err) {
             return done(err)
           }
-          console.log('coffee->\n', code)
+          if (args.indexOf('no-prompt') === -1) {
+            console.log('coffee->\n', code)
+          } else {
+            console.log(code)
+          }
           done(null, code)
         }
       },
