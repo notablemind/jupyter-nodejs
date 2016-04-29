@@ -12,6 +12,7 @@ Grab the [release package](https://github.com/notablemind/jupyter-nodejs/release
 ```bash
 tar xf jupyter-nodejs-1.1.0.tgz
 cd package
+mkdir -p ~/.ipython/kernels/nodejs/
 npm install && node install.js
 ipython console --kernel nodejs
 ```
