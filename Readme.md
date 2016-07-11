@@ -6,14 +6,14 @@ Get it while it's hot! or view the [example notebook](http://nbviewer.ipython.or
 ## Prereqs
 - IPython 3.x
 - node
+- ZeroMQ
 
 ## Installation
-Grab the [release package](https://github.com/notablemind/jupyter-nodejs/releases/download/v1.1.0/jupyter-nodejs-1.1.0.tgz)
 ```bash
-tar xf jupyter-nodejs-1.1.0.tgz
-cd package
+git clone git@github.com:notablemind/jupyter-nodejs.git
 mkdir -p ~/.ipython/kernels/nodejs/
 npm install && node install.js
+make
 ipython console --kernel nodejs
 ```
 
