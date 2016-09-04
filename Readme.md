@@ -11,6 +11,7 @@ Get it while it's hot! or view the [example notebook](http://nbviewer.ipython.or
 ## Installation
 ```bash
 git clone git@github.com:notablemind/jupyter-nodejs.git
+cd jupyter-nodejs
 mkdir -p ~/.ipython/kernels/nodejs/
 npm install && node install.js
 make
