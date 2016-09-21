@@ -13,7 +13,8 @@ Get it while it's hot! or view the [example notebook](http://nbviewer.ipython.or
 git clone git@github.com:notablemind/jupyter-nodejs.git
 mkdir -p ~/.ipython/kernels/nodejs/
 npm install && node install.js
-make
+npm run build
+npm run build-ext
 ipython console --kernel nodejs
 ```
 
