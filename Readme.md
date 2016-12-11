@@ -14,7 +14,8 @@ git clone git@github.com:notablemind/jupyter-nodejs.git
 cd jupyter-nodejs
 mkdir -p ~/.ipython/kernels/nodejs/
 npm install && node install.js
-make
+npm run build
+npm run build-ext
 ipython console --kernel nodejs
 ```
 
