@@ -28,6 +28,7 @@
   "dependencies": {
     "async": "^0.9.0",
     "babel": "^5.1.11",
+    "babel-runtime": "^6.23.0",
     "bencode": "^0.7.0",
     "coffee-script": "^1.9.2",
     "mkdirp": "^0.5.1",
