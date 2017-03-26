@@ -30,7 +30,6 @@
     "babel": "^5.1.11",
     "bencode": "^0.7.0",
     "coffee-script": "^1.9.2",
-    "contextify": "^0.1.13",
     "mkdirp": "^0.5.1",
     "superagent": "^1.2.0",
     "zmq": "^2.15.3"
