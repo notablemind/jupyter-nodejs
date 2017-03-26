@@ -8,6 +8,7 @@ if (process.argv.length >= 3) {
   installPath = process.argv[2]
 }
 
+console.log('install', installPath)
 var fullPath = path.resolve(installPath)
 
 mkdirp(fullPath, function() {
