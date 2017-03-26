@@ -16,7 +16,7 @@ mkdir -p ~/.ipython/kernels/nodejs/
 npm install && node install.js
 npm run build
 npm run build-ext
-ipython console --kernel nodejs
+jupyter console --kernel nodejs
 ```
 
 And viola!
