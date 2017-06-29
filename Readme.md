@@ -7,6 +7,7 @@ Get it while it's hot! or view the [example notebook](http://nbviewer.ipython.or
 - IPython 3.x
 - node
 - ZeroMQ
+- pkg-config
 
 ## Installation
 ```bash
