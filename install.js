@@ -3,7 +3,12 @@ var fs = require('fs')
 var path = require('path')
 var mkdirp = require('mkdirp')
 
-var installPath = path.join(process.env.HOME, '.ipython/kernels/nodejs')
+var userHome = process.env.HOME;
+if (process.platform === "win32") {
+  userHome = process.env.USERPROFILE;
+}
+
+var installPath = path.join(userHome, '.ipython/kernels/nodejs')
 if (process.argv.length >= 3) {
   installPath = process.argv[2]
 }
