@@ -13,14 +13,14 @@ Get it while it's hot! or view the [example notebook](http://nbviewer.ipython.or
 ```bash
 git clone https://github.com/notablemind/jupyter-nodejs.git
 cd jupyter-nodejs
-mkdir -p ~/.ipython/kernels/nodejs/
-npm install && node install.js
+npm install
+node install.js
 npm run build
 npm run build-ext
 jupyter console --kernel nodejs
 ```
 
-And viola!
+And voilà!
 
 ![image](https://cloud.githubusercontent.com/assets/112170/7268122/a33b186c-e882-11e4-8463-be00a6c90163.png)
 
@@ -29,9 +29,19 @@ Also, in the iPython notebook:
 
 ![image](https://cloud.githubusercontent.com/assets/112170/7268108/70cade4e-e882-11e4-95e7-8a7375b3b888.png)
 
+### Windows-specific installation notes
 
+If the installation procedure above fails on `npm install`, complaining it cannot find the Python executable, try first installing `windows-build-tools` globally, by running as administrator:
+```bash
+npm install --global --production windows-build-tools
+```
+Then also install [node-gyp](https://github.com/nodejs/node-gyp) and `zmq` globally (not necessarily as Administrator):
+```bash
+npm install --global node-gyp
+npm install --global zmq
+```
 
-## Supported features:
+## Supported features
 
 - tab-completion (both for variables and **paths**)
 - error reporting
