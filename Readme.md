@@ -20,7 +20,7 @@ npm run build-ext
 jupyter console --kernel nodejs
 ```
 
-And viola!
+And voilà!
 
 ![image](https://cloud.githubusercontent.com/assets/112170/7268122/a33b186c-e882-11e4-8463-be00a6c90163.png)
 
